@@ -32,6 +32,8 @@ switch:
     restore_mode: RESTORE_DEFAULT_ON
     entity_category: config
 
+wifi:
+
 api:
   services:
     - service: play_rtttl
