@@ -21,7 +21,7 @@ esphome:
       - rtttl.play: "success:d=24,o=5,b=100:c,g,b"
 
 dashboard_import:
-  package_import_url: github://apeeters/esphome/rfid-reader/rfid-reader.yaml
+  package_import_url: github://apeeters/esphome-firmware/rfid-reader/rfid-reader.yaml
 
 switch:
   - platform: template
