@@ -7,7 +7,7 @@ esphome:
   friendly_name: ${friendly_name}
   name_add_mac_suffix: true
   project:
-    name: rfid-reader
+    name: apeeters.rfid-reader
     version: "1.0"
   platform: ESP8266
   board: d1_mini_lite
