@@ -33,6 +33,7 @@ switch:
     entity_category: config
 
 wifi:
+  ap:
 
 api:
   services:
