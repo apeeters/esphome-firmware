@@ -9,8 +9,6 @@ esphome:
   project:
     name: apeeters.rfid-reader
     version: "1.0"
-  platform: ESP8266
-  board: d1_mini_lite
 
   on_boot:
     priority: -10
@@ -19,6 +17,9 @@ esphome:
           api.connected:
       - logger.log: API is connected!
       - rtttl.play: "success:d=24,o=5,b=100:c,g,b"
+
+esp8266:
+  board: d1_mini_lite
 
 dashboard_import:
   package_import_url: github://apeeters/esphome-firmware/rfid-reader/rfid-reader.yaml
